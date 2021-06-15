@@ -1,0 +1,83 @@
+.header__nav{
+
+    top:10%  !important;
+
+  
+    .header__ul{
+
+        background-color: black;
+        width: 100%;
+       
+     
+
+    }
+
+    .header__li{
+        display: block !important;
+        padding-bottom:20px;
+        margin-left: 20px;
+        padding-top:10px;
+
+        a{
+            color:$cols !important;
+            font-size: 20px;
+
+            &:hover{
+
+                color:blue !important
+            }
+        }
+        
+        &:hover{
+            box-shadow: 2px 2px 3px #fff !important;
+        }
+    }
+}
+
+.title{
+    font-size: 20px !important;
+}
+
+.click{
+    padding:3px !important;
+}
+
+.detalis{
+    flex-direction: column;
+    text-align: justify;
+
+    .shops{
+
+    &:nth-child(2){
+        margin: 70px 0 70px 0;
+        
+    }
+}
+}
+.branding{
+    transform: rotate(90deg);
+    top:40% !important;
+    left:-100px !important;
+
+    
+   
+}
+
+.user{
+    width: 50%;
+    padding-top: 20px;
+    &:nth-child(n){
+        border-bottom: 1px solid #ccc;
+    }
+    &:nth-child(n){
+        border-right: 1px solid #ccc;
+    }
+    &:nth-child(2n){
+        border-right: transparent;
+    }
+
+    &:nth-child(n + 7){
+        border-bottom: transparent;
+    }
+
+}

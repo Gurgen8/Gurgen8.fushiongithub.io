@@ -1,0 +1,195 @@
+.wrapper__input{
+    position: relative;
+    width: 100%;
+
+
+    .line__border{
+        border-bottom: 100%;
+    }
+
+
+}
+
+
+.footer{
+.line{
+    width: 0;
+    height: 2px;
+    background-color: gold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 1s;
+
+}
+}
+
+
+.wrapper__input{
+
+    width: 100%;
+    margin:0;
+
+
+
+&:hover  .line{
+
+    width: 100%;
+    left:0;
+
+
+    ::placeholder{
+        color:#ccc
+    }
+}
+
+}
+
+
+
+.wrapper__input{
+
+    position: relative;
+    &:nth-child(5){
+        width: 100% !important;
+        margin:0;
+
+        .line{
+            bottom:40%;
+            background-color:blue;
+        }
+
+        
+    }
+
+    .mesage{
+        width: 100%;
+    }
+}
+
+
+.slids{
+   bottom:-50px;
+   right: -70px;
+}
+
+
+.angle{
+
+    top:60% !important
+}
+
+
+.title__header{
+    width: 40% !important;
+    
+}
+
+.click{
+    width: 100px !important;
+    height: 30px !important;
+}
+
+.title__footer{
+   font-size: 30px ;
+}
+
+
+.sometitle{
+    font-size: 30px !important;
+}
+
+
+
+.title__project{
+    margin:0 !important
+}
+
+
+.img__project{
+
+    height:450px  !important;
+    position: absolute !important;
+   left:10% !important;
+    margin:0;
+    width: 100% !important;
+ 
+    img{
+        object-fit: cover;
+    }
+}
+
+.title__project{
+   margin:0  !important;
+   font-size: 28px !important;
+   
+}
+
+.branding{
+    transform: rotate(0deg);
+    position: absolute !important;
+    top:-100px !important;
+    margin:0  auto;
+    left: 0 !important;
+    right: 0
+}
+
+.slids{
+
+    left:45%;
+    bottom:50px
+}
+.line__end{
+    right: -40px;
+}
+
+.sections__title{
+    font-size: 25px !important;
+}
+
+.content__title{
+    font-size: 30px ;
+}
+
+.text__block{
+
+  
+    width: 100%;
+
+    &:hover{
+        background-color:#838996 ;
+        transform: none ;
+    }
+}
+
+
+.icon__img{
+    width: 15% !important;
+    margin:8px;
+
+    img{
+        width: 100% !important;
+    }
+}
+
+.row{
+width: 80% !important
+}
+
+.user{
+    width: 100%;
+
+    &:nth-child(n){
+        border-bottom: 1px solid #ccc;
+    }
+    &:nth-child(n){
+        border-right: transparent
+    }
+    &:last-child{
+        border-bottom: transparent
+    }
+}
+
+.registration{
+    width: 70%;
+}

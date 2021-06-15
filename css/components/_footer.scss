@@ -1,0 +1,298 @@
+.footer{
+    width: $max-width;
+    text-align: center;
+    background:#353535;
+   
+.line__footer{
+    width: 100%;
+    height: 140px;
+    @include flex;
+    justify-content: center;
+    
+
+    .footer__line{
+        width: 4px;
+        height: 100%;
+        background:$col;
+    
+    }
+}
+
+
+.contact__link{
+    font-size: 14px;
+line-height: 40px;
+color: #feb960;
+font-weight: 600;
+font-family: "Open Sans";
+text-decoration: none;
+}
+}
+
+
+.title__footer{
+    font-size: 40px;
+line-height: 65px;
+color: #ffffff;
+font-family: "Merriweather";
+margin-bottom:100px;
+}
+
+.registration{
+
+    width: 40%;
+    background:black;
+    
+      .text{
+          width: 100%;
+          height: 40px;
+          margin-top:80px;
+          transition: 1s;
+          color:$cols;
+      
+
+
+          &:hover{
+             
+            cursor: pointer ;
+          }
+   
+
+
+    
+
+      }
+
+
+      .email{
+        @extend .text;
+      }
+      
+      input{
+    
+          background:black;
+          font-size: $fs;
+         font-weight: $fw;
+        font-family: "Open Sans";
+        padding:10px;
+        border-top:none;
+        border-left:none;
+        border-right: none;
+        position: relative;
+
+      
+
+        
+        
+        
+      }
+
+      .mesage{
+          width: 100%;
+          margin:80px 0 80px 0;
+          height: 40px;
+          color:red;
+          transition: all 1s;
+
+          
+     
+      }
+
+      .click{
+          width: 30%;
+          height: 60px;
+          margin-bottom:50px;
+        background:$col;
+        color:black;
+        font-size:18px;
+
+
+            &:hover{
+
+                background:green;
+   
+            }
+
+
+
+
+      }
+
+}
+
+.row__registration{
+    @include flex;
+    .links__footer{
+        padding:0 20px;
+    }
+  
+ 
+}
+
+
+.row__footer{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:120px;
+    margin-bottom:120px;
+}
+
+
+.end__section{
+    display: flex;
+    justify-content: center;
+
+    ul{
+        list-style: none;
+    }
+
+
+    .title__link{
+        font-size: 14px;
+line-height: 40px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Open Sans";
+    }
+
+    .footer__link{
+        font-size: 13px;
+line-height: 28px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Open Sans";
+text-decoration: none;
+
+        &:hover{
+            color: saddlebrown;
+            text-decoration: underline;
+        }
+
+
+    }
+    
+    
+
+    i{
+        font-size: 20px;
+        margin-right: 10px;
+        &:hover{
+            color: royalblue;
+            font-size: 24px;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+
+
+.header{
+   
+    label{
+        color:$cols;
+        font-size:40px;
+        position: absolute;
+        top:-50px;
+        cursor: pointer;
+
+        
+    }
+}
+
+
+
+
+.wrapper__input{
+    width: 40%;
+    float:left;
+    margin-left:7%
+}
+
+.footer{
+
+    .logo__link{
+        background-color: transparent;
+    }
+}
+
+
+
+.inp__text{
+    color:#fff;
+    position: absolute;
+    border:transparent;
+    width: 100%;
+    bottom:30px;
+    left: 10px;
+    background: transparent;
+    
+
+}
+
+
+.wrapper__input{
+    position: relative;
+    transition: all 1s;
+    &:hover{
+
+        .inp__text{
+            color: $cols;
+            bottom: 80px;
+            font-size: 12px;
+            text-decoration: underline green;
+
+        }
+    }
+}
+
+.wrapper__input{
+ 
+    position: relative;
+    &:nth-child(5){
+
+        .line{
+            top:59%
+        }
+       
+            .inp__text{
+                bottom: 55%;
+            } 
+
+        }
+
+        &:hover{
+
+        
+            .inp__text{
+                top:40px;
+                
+            }
+        }
+
+    
+    }
+.footer{
+    .line{
+
+        position: absolute;
+        width: 0%;
+        left: 0;
+        transition: 1.3s;
+        bottom: 0;
+    }
+
+.wrapper__input{
+
+    &:hover{
+
+        .line{
+            width: 100%;
+            background: $cols;
+        }
+    }
+}
+
+}

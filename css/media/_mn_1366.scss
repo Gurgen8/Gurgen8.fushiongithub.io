@@ -1,0 +1,35 @@
+.header{
+
+    label{
+        display: none;
+    }
+
+    .header__ul{
+        display: block  !important 
+    }
+}
+
+
+
+
+
+
+
+.wrapper__input{
+
+
+    &:nth-child(5){
+        width: 90% !important;
+        margin:0  5%
+    }
+    .mesage{
+        width: 100% !important
+    }
+}
+
+.footer{
+    .line{
+        background-color: transparent;
+    }
+}
+

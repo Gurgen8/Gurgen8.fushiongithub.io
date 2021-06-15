@@ -1,0 +1,82 @@
+
+.wrapper__input{
+
+
+    &:nth-child(5){
+        width: 85% !important;
+        margin:0 8%;
+    }
+}
+
+
+
+.registration{
+
+    .mesage{
+        width: 100%;
+     
+    }
+}
+
+
+.row__footer{
+
+    flex-direction: column;
+
+    .links__footer{
+
+        padding-bottom: 20px;
+    }
+}
+
+
+.slids{
+    right: -50px;
+}
+
+.click{
+    font-size: 12px !important;
+
+}
+
+.links__footer{
+    border-bottom: 3px dashed $cols;
+}
+.branding{
+    transform: rotate(90deg);
+    top:40% !important;
+    left:-100px !important;
+
+    
+   
+}
+
+.user{
+    width: 33%;
+   border:transparent;
+    &:nth-child(n){
+        border-bottom: 1px solid #ccc;
+    }
+    
+    &:nth-child(n){
+        border-right: 1px solid #ccc;
+    }
+
+    &:nth-child(3n){
+        border-right: transparent;
+    }
+
+    &:last-child{
+        border-bottom:transparent;
+    }
+    
+    &:nth-child(7){
+        border-bottom:transparent;
+    }
+    }
+
+    .footer{
+        .line{
+            background-color: transparent;
+        }
+    }

@@ -1,0 +1,10 @@
+
+
+.footer{
+    .mesage{
+
+        &:focus{
+            border-bottom: 2px solid $cols;
+        }
+    }
+}

@@ -1,0 +1,665 @@
+.main{
+    width: $max-width;
+    a{
+        text-decoration: none;
+    }
+    
+
+        .line{
+             
+               @include flex; 
+            
+        }
+
+        .line__height{
+           @include line;
+          
+        }
+
+        .text {
+            @extend .line;
+            margin:20px 0 20px 0;
+
+            .sometext{
+                color: #feb960;
+            @include opensans;
+            }
+           
+        }
+
+
+        .sometitle{
+               font-size: 40px;
+              line-height: 65px;
+             color:#fff;
+              font-family: "Merriweather";
+               text-align: center;
+        }
+
+
+        .detalis{
+            width: 55%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 140px;
+        
+           
+        }
+}
+
+
+.info__section{
+    width: $max-width;
+    background:#202020;
+}
+
+
+.row__detalis{
+    @include flex;
+    margin-top: 120px;
+   
+    .icon__detalis i{
+        color:#6a5335;
+        font-size: 30px;
+
+        
+        &:hover{
+            color:$cols;
+            font-size: 40px;}
+
+    }
+
+    .title__detalis{
+        
+        color: #ffffff;
+        font-family: "Merriweather";
+        margin-top:25px;
+    }
+
+    .textdetalis{
+
+        font-size: 14px;
+    line-height: 27px;
+  font-weight: 400;
+     font-family: "Open Sans";
+     margin:25px 0 25px 0;
+     color: #bbbbbb;
+    }
+}
+
+
+
+.shops{
+
+            &:hover{
+                box-shadow: 5px 5px 5px red;
+            }
+        
+    
+
+    &:nth-child(2){
+        margin:0 100px 0 100px
+    }
+
+    .see__detalis{
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+
+    i{
+        color:#6a5335;
+
+
+        &:hover{
+            color:$cols;
+           
+
+        }
+    }
+
+    }
+}
+
+
+.project__section{
+    width: $max-width;
+    @include flex;
+    height: 1000px;
+    background:#181818;
+    position: relative;
+
+
+    ul{
+        list-style: none;
+    }
+    
+    
+
+    .figure__project{
+        @extend .container;
+        position: relative;
+        height: 600px;
+        margin-top:150px;
+
+
+        .line__project{
+            left: 0;
+            width: 4px;
+            height: 140px;
+            position: absolute;
+            background:$col;
+        }
+
+    }
+
+    .img__project{
+        position:absolute;
+        width: 70%;
+        margin: 0,auto;
+        left: 15%;
+        height: 600px;
+  
+        img{
+            width: $max-width;
+            height: $max-width;
+        
+        }
+     
+
+       
+    }
+
+    .branding{
+
+        top:25%;
+        position: absolute;
+        left:0%;
+
+        .branding__link{
+            color: $col;
+            font-weight: 600;
+            font-family: "Open Sans";
+        }
+        
+
+        .title__project{
+            @include margin;
+            color: #ffffff;
+            font-family: "Merriweather";
+            filter: drop-shadow(0 0 5px rgba(24,24,24,0.5));
+            font-size:35px
+        }
+      
+    }
+       
+    
+
+}
+
+.slids{
+    position: absolute;
+    bottom:160px;
+    right: 0;
+
+
+    .link__slids{
+        @include opensans;
+        font-size: $fs;
+line-height: 28px;
+color: #ffffff;
+text-align: right;
+
+  i{
+      color:$cols;
+  }
+    }
+
+
+    
+}
+
+.line__end{
+    right: 40px;
+    bottom:0;
+    width: 4px;
+    height: 140px;
+    position: absolute;
+    background:$col
+}
+
+.main__li{
+    border:2px solid #ccc;
+    background:#ccc;
+    width:30px;
+    height:3px;
+    display: inline-block;
+    margin-right: 30px;
+
+    &:nth-child(3){
+  
+        border:2px solid $cols;
+    }
+
+    
+}
+
+.main__page{
+    position: absolute;
+    bottom:180px;
+
+
+   
+    
+}
+
+
+.testomonials{
+    width: $max-width;
+    background:#202020;
+    position: relative;
+   
+      
+    .link__section{
+        @include flex;
+        @include margin;
+        
+
+        a{
+            font-size: $fs;
+            color: $col;
+            @include opensans
+                }
+        }
+
+        .sections__title{
+
+            font-size: 40px;
+        line-height: 65px;
+        font-family: "Merriweather";
+        text-align: center;
+        color:#fff;
+        }
+
+}
+
+.line__icons{
+    @include flex;
+    margin:100px 0 100px 0;
+
+    .row{
+       @extend .container;
+        display: flex;
+        justify-content:space-between;
+
+
+        .icon__img{
+            width: 10%;
+            height: 70px;
+
+            &:hover{
+                border-bottom:  5px double rosybrown;
+            }
+
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+       
+    }
+}
+
+
+
+.text__block{
+    width: 40%;
+    position: relative;
+    background:#181818;
+    padding:0 20px 0 20px;
+    border:1px solid black;
+    transition: 1s;
+    
+        &:hover{
+            transform: scaleX(1.4);
+            background-color: #4B3621 ;
+            box-shadow: 20px 20px 20px black;
+      
+        }
+   
+
+    
+     .block__text{
+         margin-top:160px;
+         font-size: 17px;
+        line-height: 35px;
+        color: #bbbbbb;
+        font-family: "Merriweather";
+        text-align: center;
+     }
+
+
+
+
+    .cube{
+        width: 100px;
+        height: 100px;
+        background:#fff;
+        position: absolute;
+        margin:0 auto;
+        left: 0;
+        right: 0;
+
+
+        img{
+            width: 100%
+        }
+    }
+}
+
+ 
+
+.block__row{
+    @include flex;
+    padding-bottom:30px;
+    position: relative;
+
+    
+}
+
+.after__section{
+
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin:50px 0 50px 0;
+
+    .after{
+        @include opensans;
+        color:#fff;
+    }
+
+   em{
+    line-height: 35px;
+    color: $col;
+   @include  opensans
+   }
+
+    .line__after{
+
+        width: 200px;
+        height: 1px;
+        background:#ccc;
+        align-self: center;
+    }
+}
+
+
+.section__page{
+    @include flex;
+    padding-bottom:120px;
+       
+    }
+
+
+
+.row{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+input{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+.teams {
+    width: 100%;
+    padding: 150px 0 115px;
+    background: #181818;
+    text-align: center;
+    position: relative;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      height: 150px;
+      width: 2px;
+      background: $col;
+
+      
+    }
+  }
+  
+  .user{
+    width: 25%;
+    height: 360px;
+    border-right: 1px solid #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+ 
+    
+
+    &:nth-child(-n + 4) {
+      border-bottom: 1px solid #fff;
+    }
+  
+    &:nth-child(4n + 4) {
+      border-right: 0;
+      padding:20px
+  
+    }
+  
+    &__avatar {
+      width: 120px;
+      height: 120px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      overflow: hidden;
+     
+    }
+  
+    .user__desc {
+      position: absolute;
+      width: 175px;
+      right: 25px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.4s;
+      right: 10px;
+      font-size: 13px;
+      line-height: 30px;
+      text-align: left;
+      white-space: wrap;
+      top:-150px;
+      right: 0;
+      box-shadow: 5px 5px 4px green;
+      
+
+      .text__team{
+        font-size: 13px;
+        line-height: 25px;
+        color: #fff;
+        font-weight: $fw;
+        font-family: "Open Sans";
+      }
+    }
+  
+    &__name {
+      color:$col;
+      text-transform: uppercase;
+      font-size: $fs;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+  
+    &__position {
+      font-size: 13px;
+      color: #ffffff;
+      font-weight: $fw;
+    }
+  
+    &__figure {
+      transition: all 0.7s;
+ 
+    }
+  
+    &:hover {
+      .user__figure {
+        transform: rotate(90deg) translate(-70px, 105px);
+        flex-direction: row;
+        display: flex;
+        position: absolute;
+        left: 50px;
+  
+        .block__border {
+          transform: rotate(-90deg);
+          width: 70px;
+          height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+  
+          &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            background: $col;
+            height: 2px;
+            top: 0;
+            left: 0;
+          }
+  
+          &::after {
+            content: "";
+            position: absolute;
+            width: 2px;
+            background: $col;
+            height: $max-width;
+            top: 0;
+            left: 0;
+          }
+  
+          .user__avatar {
+            width: 50px;
+            height: 50px;
+            margin: 0;
+            
+          }
+
+         
+        }
+  
+        .user__figcaption {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+  
+      .user__desc {
+        opacity: 1;
+        visibility: visible;
+        top: $fs;
+        position: absolute;
+        left:100px;
+        width:$with-cont;
+      
+    
+
+
+        
+      }
+    }
+  }
+  
+  .content__title {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Merriweather';
+    margin-bottom: 110px;
+  }
+  .block__title{
+    font-size:$fs;
+    line-height: 40px;
+    color: $col;
+    font-weight: 600;
+    margin: 25px auto 35px;
+  }
+
+
+  .row__teams{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  
+.container__team{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.img__project{
+    position: relative;
+
+
+
+    &:hover{
+        .fon__image{
+            z-index: 1;
+            height: $max-width;
+            width:$max-width;
+            left: 0;
+        }
+    }
+
+
+
+    .fon__image{
+        position: absolute;
+        z-index: -1;
+        top:0;
+        height: $max-width;;
+        transition:all 2s;
+        width:0 ;
+        right: 0;
+        img{
+            width: $max-width;
+            height:$max-width
+        }
+        
+
+    }
+}
+
+
+.branding__link{
+
+    &:hover{
+        text-decoration:underline  gold;
+    }
+}
+
+

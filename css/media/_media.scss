@@ -1,0 +1,32 @@
+@media only screen and  (min-width: 1440px){
+    @import "mn_1440";
+  }
+  
+  @media only screen and (min-width: 1366px) {
+    @import "mn_1366";
+  }
+  
+  @media only screen and (min-width: 1170px) {
+    @import "mn_1170";
+  }
+  
+  @media only screen and (max-width: 1170px) {
+    @import "mx_1170";
+  }
+  
+  @media only screen and (max-width: 992px) {
+    @import "mx_992";
+  }
+  
+  @media only screen and (max-width: 767px) {
+    @import "mx_767";
+  }
+  
+  @media only screen and (max-width: 374px) {
+    @import "mx_374";
+  }
+  @media (pointer: coarse) {
+    @import "touch";
+  }
+ 
+ 
